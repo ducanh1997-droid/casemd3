@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+
+#blog-article,#comment-article,#comment-block,#message-block{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #15191d;
+    background: #cdbaba;
+    border-top-color: #cbcdd0;
+    border-right-color: #c3c6c9;
+    border-bottom-color: #b5b9bd;
+    border-left-color: #c3c6c9;
+    border-radius: 5px;
+    width: 700px;
+    min-height: 200px;
+}
+
+#blog-author,#comment-author,#message-author{
+    width: 149px;
+    float: left;
+    border-right: 1px solid #c3c6c9 ;
+}
+
+#blog-content,.comment-content,#message-content,#message-content-edit{
+    padding:20px;
+    width: 550px;
+    float: right;
+    background: #ebeced;
+}
+#avatar-author,#avatar-comment,.avatar{
+    padding: 20px 0 0 40px;
+
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+
+}
+
+#img-avatar,.img-comment{
+    max-width: 60px;
+    height: auto;
+    border-radius: 100px;
+}
+
+#date-post,#date-comment{
+    margin-bottom: 10px;
+    color: #8f9193;
+    font-size: 0.75rem;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #d3d5d7;
+}
+
+#comment-block{
+
+}
+
+#submit-reply,#submit-edit{
+    background: #1c67b3;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 4px 10px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+#message{
+    border-color: #8383b2;
+    border-radius: 5px;
+}
+
+#message:focus {
+    outline: none !important;
+    border:1px solid #2f59a7;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+#comment-article .comment-content #comment-content-message{
+    margin-bottom: 80px;
+}
+
+#comment-article .comment-content a.option-comment{
+    color: #23497c;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
